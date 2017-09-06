@@ -21,6 +21,7 @@
     <link rel="shortcut icon" href="img/spr.png">
     <!-- custom css -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   </head>
   <body>
@@ -55,6 +56,9 @@
                   </li>
                 </ul>
                 <form class="navbar-form navbar-right">
+                  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#contact_modal">
+                    Contact
+                  </button>
                   <div class="form-group">
                     <input type="text" class="form-control" placeholder="Search">
                   </div>
@@ -64,11 +68,42 @@
             </div><!-- /.container-fluid -->
           </nav>
 
+          <!--Contact Modal -->
+          <div id="contact_modal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Feel free to contact me <i class="fa fa-smile-o" aria-hidden="true"></i> </h4>
+                </div>
+                <div class="modal-body">
+                    <div class=" footer_css"  id="socialicons">
+                    <a class="icon" href="https://github.com/shekharrajak" title="Follow " target="_blank"><i class="fa fa-github"></i></a>
+                    <a class="icon" href="https://twitter.com/shekharrajak" title="Follow with Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a class="icon" href="#" title="Follow with Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a class="icon" href="#" title="Follow with Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a class="icon" href="#" title="Follow with Google Plus" target="_blank"><i class="fa fa-google-plus"></i></a>
+                    <a class="icon" href="#" title="Follow with RSS" target="_blank"><i class="fa fa-rss"></i></a>
+                    <a class="icon" href="mailto:shekharrajak@live.com" title="Email Me" target="_blank"><i class="fa fa-envelope"></i></a>
+                    <br><br>
+                    <a class="icon" href="#" title="Copyright" target="_blank"><i class="fa fa-copyright"></i></a>
+                      Shown by <a class="icon" style="border-style: none;" href="#" title="Love" target="_blank"><i class="fa fa-heart"></i></a> Shekhar
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
     </header>
 
     <section id="link_cover">
             <div id="cover">
-              <div id="intro">
+              <div id="intro"  class="intro-text">
                 <p>Hello World!</p>
                 <p>My name is <b>Shekhar&nbsp; Prasad Rajak </b></p>
                 <p>I’m a Web Developer and Software Engineer from India. I am tremendously passionate about the future of web design and development. I love playing Chess, visiting new places and also have interest in spirituality and ancient india.</p>
@@ -120,7 +155,24 @@
     </section>
 
     <section id="link_education">
-      <h3> Experience </h3>
+      <h3> Career </h3>
+
+      <div class="span6">
+        <b>Programming languages, I learnt :  </b>
+        <hr>
+        <div class="list-group">
+          <a  class="list-group-item list-group-item-action">C, C++ : Learnt during 1st and 2nd year</a>
+          <a class="list-group-item list-group-item-action">Java    : Learnt during 3rd year OOP  course</a>
+          <a class="list-group-item list-group-item-action">Python  : During 2016 summer</a>
+          <a class="list-group-item list-group-item-action ">Ruby    : During  2017 summer</a>
+          <a class="list-group-item list-group-item-action "> Web technologies - HTML,CSS, JS, Codeigniter(basics), Django(basics) : Learnt during college events</a>
+        </div>
+        <hr>
+        <p>
+                  More details:
+                  <a href="http://s-hacker.info/"> My Personal website</a>
+                </p>
+      </div>
     </section>
 
         <!-- personal experience
