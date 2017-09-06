@@ -115,7 +115,7 @@ section h3{
 
 #socialicons {
         text-align: center;
-         padding: 40px;
+         padding: 10px;
 }
 #socialicons .icon{
   color: black;
@@ -253,6 +253,7 @@ section#link_education .span6{
 .tab-pane {
     text-align:center;
     height:50vh;
+    padding: 50px 0px 10px 100px;
 
 }
 
