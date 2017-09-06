@@ -180,4 +180,10 @@ section#experience .grid_6 .container_4{
 
 .tab-pane {
     text-align:center;
+    height:50vh;
+
+}
+
+.tab-pane a{
+    color: #D0EAEC;
 }
