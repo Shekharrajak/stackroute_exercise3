@@ -3,7 +3,7 @@
 
 Please check gh-pages branch. [master branch may be updated.]
 
-Exercise 2 :
+Exercise 3 :
 [http://cgi-lms.stackroute.in/mod/assign/view.php?id=53](http://cgi-lms.stackroute.in/mod/assign/view.php?id=53)
 
 Solution :

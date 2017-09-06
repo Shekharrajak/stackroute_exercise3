@@ -8,7 +8,7 @@ header .no-padding{
 }
 
 #intro{
-    padding: 100px 150px 100px 100px;
+    /*padding: 100px 150px 100px 100px;*/
     text-align: center;
     transition:all 1s ease;
     opacity: 0.9;
@@ -286,9 +286,15 @@ section#link_education .span6{
 }
 
 .intro-text {
+    bottom: 50%;
   position: absolute;
   opacity:1;
   animation-name: bottomFadeOut;
   animation-delay: 0s;
   animation-duration: 3s;
 }
+/*
+@media (min-width: 768px) and (max-width: 991px) {
+    body{font-size: 10px;}
+}*/
+/*@media(min-width:60em){html{font-size: 100%}*/}
