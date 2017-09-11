@@ -154,7 +154,7 @@ section#link_education{
     background-color: #c0dfd9
 }
 
-section#link_education .span6{
+section#link_education {
     padding: 10px 100px 10px 100px;
 }
 
@@ -268,14 +268,12 @@ section#link_education .span6{
 
 @keyframes bottomFadeOut {
   0% {
-    position: absolute;
     bottom: -5rem;
     opacity: 0;
   }
 
   75% {
-    position: absolute;
-    bottom: 50%;
+    padding-top: 10%;
     opacity: 1;
   }
 
@@ -285,16 +283,40 @@ section#link_education .span6{
   
 }
 
-.intro-text {
-    bottom: 50%;
-  position: absolute;
+.intro-text div {
+    padding-top: 20%;
   opacity:1;
   animation-name: bottomFadeOut;
   animation-delay: 0s;
   animation-duration: 3s;
 }
-/*
-@media (min-width: 768px) and (max-width: 991px) {
-    body{font-size: 10px;}
-}*/
-/*@media(min-width:60em){html{font-size: 100%}*/}
+
+@media (min-width: 858px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 780px) {
+    html {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 702px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 724px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 623px) {
+    html {
+        font-size: 8px;
+    }
+}
